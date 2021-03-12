@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 2:28:30 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0        ''      NO NAME
+
+> 576px    SM    Small Devices
+
+> 768px    MD    Medium Devices
+
+> 992      LG    Large Devices
+
+> 1200     XL    Extra Large
+
+> 1400     XXL   Extra Extra Large
+
+*/
+
+@media(min-width:576px){
+  /****FOOTER***/
+  footer .footer-nav a {
+       margin-bottom: 15px;
+       margin-left: 15px;
+  }
+  
+}
+
+@media(min-width:768px){
+    /****HEADER***/
+  
+  header .navbar-dark .navbar-nav .nav-link,
+  header .navbar-dark .navbar-nav .nav-link {
+      border-bottom: 3px solid transparent;
+
+  }
+  
+  header .navbar-dark .navbar-nav .nav-link:hover,
+  header .navbar-dark .navbar-nav .nav-link.active {
+      background-color: transparent;
+      border-bottom: 3px solid #F7CC4B;
+
+  }
+
+    /***HERO****/
+
+ .hero .carousel-item {
+    padding: 275px 0;
+}
+  .hero .carousel-indicators {
+    bottom: 130px;
+}
+
+   /****ABOUT***/
+.about, .principles {
+    padding: 100px 0;
+}
+
+  /***PARALLAX****/
+ .parallax {
+    padding: 275px 0;
+} 
+/******ACHIEVEMENTS******/
+.achievements .achievements-item span {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.achievements .achievements-item p:first-of-type {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+   /****FOOTER***/
+  footer .footer-nav a {
+       margin-bottom: 20px;
+       margin-left: 20px;
+       height: 48px;
+       width: 48px;
+       line-height: 44px;
+       font-size: 23px;
+  }
+ 
+}
+
+@media(min-width:992px){
+  
+    /****HERO****/
+  .hero .hero-title {
+    font-size: 82px;
+    line-height: 98px;
+}
+.hero .carousel-item {
+    padding: 300px 0;
+}
+.hero .carousel-indicators {
+    bottom: 170px;
+}
+
+   /****ABOUT****/
+   
+   .about, .principles {
+    padding: 120px 0 160px;
+}
+
+/***VIDEO****/
+.video, .parallax {
+    padding: 161px 0 223px;
+}
+
+/***PARALLAX****/
+ .parallax {
+    padding: 300px 0;
+} 
+
+/******ACHIEVEMENTS******/
+.achievements .achievements-item span {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.achievements .achievements-item p:first-of-type {
+    font-size: 84px;
+    margin-bottom: 30px;
+}
+}
+
+@media(min-width:1200px){
+  
+    container {
+        max-width: 1190px;
+    }
+}
+
+@media(min-width:1400px){
+  container {
+        max-width: 1190px;
+    }
+  
+}
