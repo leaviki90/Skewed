@@ -36,7 +36,14 @@ and open the template in the editor.
 
 @media(min-width:768px){
     /****HEADER***/
-  
+    header {
+        background-color: transparent;
+    }
+  header.active{
+   background-color: #000;
+   padding-top: 0px !important;
+   padding-bottom: 0px !important;
+}
   header .navbar-dark .navbar-nav .nav-link,
   header .navbar-dark .navbar-nav .nav-link {
       border-bottom: 3px solid transparent;
